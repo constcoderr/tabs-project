@@ -80,7 +80,11 @@ body {
     cursor: pointer;
 }
 
-.option-container:hover {
+.option-container.active {
+    background-color: #FFFFFF;
+}
+
+.option-container:not(.active):hover {
     background-color: hsl(205, 100%, 96%);
     color: #49a6e9;
 }
