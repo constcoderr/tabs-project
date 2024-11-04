@@ -9,5 +9,99 @@ html,
 body {
     height: 100%;
     width: 100%;
+    background-color: #F1F5F8;
 }
 
+.container {
+    height: 100vh;
+    padding: 80px 0px 40px;
+}
+
+.title {
+    font-family: Roboto;
+    letter-spacing: 0.25rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.description {
+    color: hsl(210, 22%, 49%);
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.wrapper {
+    height: 330px;
+    padding: 0px 89.5px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
+
+.frame {
+    height: 320px;
+    width: 569px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.frame img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tabs-container {
+    height: 100%;
+    width: 569px;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.tabs-options-wrapper {
+    height: 50px;
+    width: 569px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(212, 33%, 89%);
+}
+
+.option-container {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.option-container:hover {
+    background-color: hsl(205, 100%, 96%);
+    color: #49a6e9;
+}
+
+.option {
+    letter-spacing: 0.25rem;
+}
+
+.tab-details-container {
+    padding: 32px 24px;
+}
+
+.active-title {
+    color: hsl(209, 61%, 16%);
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.25rem;
+    font-family: Roboto;
+}
+
+.active-description {
+    margin-bottom: 1.25rem;
+    color: hsl(210, 22%, 49%);
+    line-height: 1.5;
+}
